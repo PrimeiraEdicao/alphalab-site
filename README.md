@@ -13,7 +13,7 @@ Abra `index.html` no navegador ou execute `python3 -m http.server 8000` nesta pa
 
 ## Ativar atendimento
 
-Edite `config.js` com o WhatsApp comercial (país + DDD + número) ou o e-mail oficial. Os botões abrem um diálogo com a oferta selecionada e direcionam ao canal configurado. Sem contato configurado, a página informa indisponibilidade e não simula envio, cadastro ou cobrança. Não há checkout, backend ou armazenamento de dados pessoais.
+Edite `config.js` com o WhatsApp comercial (país + DDD + número) ou o e-mail oficial. Os botões abrem um diálogo com a oferta selecionada e direcionam ao canal configurado. Sem contato configurado, a página oferece caminhos para dúvidas e informações de transparência, sem deixar o visitante em um beco sem saída nem simular envio, cadastro ou cobrança. Não há checkout, backend ou armazenamento de dados pessoais.
 
 ## Publicar no GitHub Pages
 

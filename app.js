@@ -23,12 +23,16 @@ document.querySelectorAll('[data-plan]').forEach(button => button.addEventListen
   const email = String(config.email || '').trim();
   let href = '';
   if (/^\d{10,15}$/.test(phone)) href = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(product.message);
-  else if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) href = 'mailto:' + encodeURIComponent(email) + '?subject=' + encodeURIComponent('Conhecer AlphaLab') + '&body=' + encodeURIComponent(product.message);
+  else if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) href = 'mailto:' + email + '?subject=' + encodeURIComponent('Conhecer AlphaLab') + '&body=' + encodeURIComponent(product.message);
   document.querySelector('#contact-ready').hidden = !href;
   document.querySelector('#contact-pending').hidden = Boolean(href);
   const contact = document.querySelector('#contact-link');
-  if (href) contact.href = href; else contact.removeAttribute('href');
+  contact.href = href || '#duvidas';
+  if (href.startsWith('https://')) { contact.target = '_blank'; contact.rel = 'noopener noreferrer'; }
+  else { contact.removeAttribute('target'); contact.removeAttribute('rel'); }
   dialog.showModal(); document.body.classList.add('dialog-open');
 }));
 dialog.addEventListener('close', () => document.body.classList.remove('dialog-open'));
 dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
+
+document.querySelectorAll('[data-dialog-link]').forEach(link => link.addEventListener('click', () => dialog.close()));
