@@ -1,6 +1,6 @@
 # AlphaLab
 
-Landing page estática em português, com visual claro e institucional: azul profundo, tipografia ampla, espaços generosos e ilustração arquitetônica original em SVG. Não usa a marca nem ativos do BTG.
+Landing page estática em português, com visual claro e institucional: identidade vetorial oficial fornecida pelo proprietário, azul-marinho, azul de destaque, tipografia ampla e espaços generosos. Não usa a marca nem ativos do BTG.
 
 ## Executar
 
@@ -28,3 +28,17 @@ Antes da abertura comercial, configure contato oficial, condições de contrata�
 ## Acessibilidade
 
 Menu responsivo com estado acessível, atalho ao conteúdo, foco visível, FAQ nativa, diálogo com fechamento por Escape e respeito a movimento reduzido.
+
+
+## Identidade visual
+
+Aplicada a segunda proposta do kit Alphalab: símbolo arredondado com ponto azul e nome vetorizado. Os SVGs foram copiados sem alterar proporções, curvas ou áreas de respiro.
+
+- Navy: `#0F2D5B`; azul de destaque: `#4F8CFF`.
+- Fundo claro: `#F6F8FC`; cinza da marca: `#94A3B8`.
+- Textos auxiliares usam `#52647E` e links pequenos usam `#315FC3`, tons de apoio com contraste sobre superfícies claras. O azul e o cinza da marca ficam reservados a detalhes e elementos decorativos.
+- Cabeçalho: logo horizontal colorido. Rodapé: versão reversa.
+- Abertura: símbolo original, círculos discretos e assinatura “confiança | clareza | autoridade”.
+- Favicon SVG e ícone Apple em PNG fornecidos no kit.
+
+Ativos em `assets/`. Os preços e o fluxo de atendimento existente foram preservados. Não são necessárias fontes externas; o nome da marca está convertido em curvas no SVG.

@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>AlphaLab | Inteligência quantitativa para suas decisões</title>
   <meta name="description" content="Conheça os sinais quantitativos AlphaLab: R$ 200/mês com 30 dias grátis. Integração com MetaTrader 5 por R$ 2.400.">
-  <meta name="theme-color" content="#092647">
+  <meta name="theme-color" content="#0F2D5B">
   <meta property="og:title" content="AlphaLab | O próximo passo começa com método.">
   <meta property="og:description" content="Sinais quantitativos e integração com MetaTrader 5. Conheça nossas soluções.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <script src="config.js" defer></script>
   <script src="app.js" defer></script>
@@ -17,7 +18,7 @@
   <a class="skip" href="#principal">Pular para o conteúdo</a>
   <header class="header">
     <div class="container navigation">
-      <a class="brand" href="#inicio" aria-label="AlphaLab — início"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 31 18 6h5l12 25h-7l-3-7H14l-3 7Zm12-13h6l-3-7Z" fill="currentColor"/><circle cx="34" cy="7" r="3" fill="#297ad5"/></svg><span>alpha<strong>lab</strong><span class="brand-dot">.</span></span></a>
+      <a class="brand" href="#inicio" aria-label="AlphaLab — início"><img src="assets/alphalab-logo.svg" alt="AlphaLab" width="860" height="244"></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" type="button"><span>Menu</span><svg width="20" height="16" viewBox="0 0 20 16" aria-hidden="true"><path d="M0 1h20M0 8h20M0 15h20" stroke="currentColor"/></svg></button>
       <nav id="main-nav" aria-label="Principal">
         <a href="#solucoes">Nossas soluções</a><a href="#metodo">Nosso método</a><a href="#duvidas">Dúvidas</a>
@@ -36,26 +37,11 @@
           <p class="hero-note">Sinais quantitativos · Integração MetaTrader 5</p>
         </div>
         <div class="hero-art" aria-hidden="true">
-          <svg viewBox="0 0 620 670" preserveAspectRatio="xMidYMid slice">
-            <defs>
-              <linearGradient id="sky" x2="0.9" y2="1"><stop stop-color="#e9f1f7"/><stop offset="1" stop-color="#b9cfe0"/></linearGradient>
-              <linearGradient id="glass" x2="1" y2=".4"><stop stop-color="#183c60"/><stop offset=".45" stop-color="#6689a6"/><stop offset="1" stop-color="#a8c4d8"/></linearGradient>
-              <linearGradient id="side" x2="1" y2="1"><stop stop-color="#103154"/><stop offset="1" stop-color="#41617d"/></linearGradient>
-              <pattern id="windows" width="33" height="32" patternUnits="userSpaceOnUse"><path d="M0 0H33V32" fill="none" stroke="#d1e1ec" stroke-opacity=".36" stroke-width="1"/></pattern>
-              <clipPath id="tower"><path d="M105 670V180L380 44V670Z"/></clipPath>
-            </defs>
-            <path fill="url(#sky)" d="M0 0h620v670H0z"/>
-            <circle cx="476" cy="127" r="180" fill="#fff" opacity=".17"/>
-            <path d="M0 670V381L110 312l116 68v290" fill="#91acbf" opacity=".48"/>
-            <path d="M380 44 521 171v499H380Z" fill="url(#side)"/>
-            <path d="M105 670V180L380 44V670Z" fill="url(#glass)"/>
-            <g clip-path="url(#tower)"><path d="M90 0h310v690H90z" fill="url(#windows)" transform="skewY(-26)"/><path d="M135 0v700M194 0v700M255 0v700M316 0v700M376 0v700" stroke="#dfebf3" stroke-opacity=".35"/><path d="m110 165 270 430v130L105 285Z" fill="#e9f2f8" opacity=".15"/></g>
-            <path d="m380 101 141 126m-141-65 141 126m-141-65 141 126m-141-65 141 126m-141-65 141 126m-141-65 141 126m-141-65 141 126m-141-65 141 126" stroke="#97b2c9" stroke-opacity=".25"/>
-            <path d="M426 85v585M474 128v542" stroke="#97b2c9" stroke-opacity=".3"/>
-            <path d="M500 670V423l120-64v311Z" fill="#c6d9e7"/><path d="m500 454 120-64m-120 94 120-64m-120 94 120-64m-120 94 120-64m-120 94 120-64m-120 94 120-64m-120 94 120-64" stroke="#86a6bf"/>
-            <path d="M0 640 620 539v131H0Z" fill="#092647" opacity=".1"/>
-          </svg>
-          <div class="art-caption"><span>ALPHALAB</span><p>Uma visão analítica.<br>Novas possibilidades.</p><span class="art-arrow">↗</span></div>
+          <div class="brand-orbit brand-orbit-outer"></div>
+          <div class="brand-orbit brand-orbit-inner"></div>
+          <span class="brand-point"></span>
+          <img class="hero-symbol" src="assets/alphalab-symbol.svg" alt="" width="320" height="320" fetchpriority="high">
+          <div class="art-caption"><span>INTELIGÊNCIA COM PROPÓSITO</span><p>confiança <i></i> clareza <i></i> autoridade</p></div>
         </div>
       </div>
     </section>
@@ -74,7 +60,7 @@
     <section class="faq-section section" id="duvidas"><div class="container faq-grid"><div><p class="eyebrow">DÚVIDAS FREQUENTES</p><h2>Vamos simplificar.</h2><p>As respostas para dar<br>o próximo passo com clareza.</p></div><div class="faq-list"><details><summary>Como funciona o mês grátis?</summary><p>O plano Alpha Signals oferece os primeiros 30 dias sem custo. Depois desse período, a assinatura custa R$ 200 por mês. As condições de ativação e cobrança devem ser confirmadas no atendimento antes da contratação.</p></details><details><summary>Preciso ter MetaTrader 5 para receber sinais?</summary><p>Não. O Alpha Signals é voltado ao acompanhamento dos sinais e à execução manual. A conexão com MetaTrader 5 é uma oferta técnica separada.</p></details><details><summary>O que está incluído na integração?</summary><p>Configuração da ponte entre o AlphaLab e o seu MetaTrader 5, validação de conectividade, teste operacional e orientações de ativação. A compatibilidade depende da corretora, da instalação e das permissões do seu ambiente.</p></details><details><summary>O modelo opera automaticamente por mim?</summary><p>O plano de sinais não executa operações. A integração técnica com MT5 tem seu escopo definido na implantação. O material de pesquisa fornecido descreve uma versão sem envio automático de ordens.</p></details><details><summary>Existe garantia de retorno?</summary><p>Não. Nenhuma das soluções oferece garantia de lucro. O mercado envolve riscos, incluindo perda de capital, e cada decisão de operação é responsabilidade do usuário.</p></details></div></div></section>
     <section class="closing"><div class="container closing-inner"><div><p class="eyebrow">SEU PRÓXIMO PASSO</p><h2>Mais clareza.<br>Mais método. AlphaLab.</h2></div><a class="button button-white" href="#solucoes">Conheça os planos <span aria-hidden="true">↗</span></a></div></section>
   </main>
-  <footer><div class="container"><div class="footer-top"><a class="brand" href="#inicio">alpha<strong>lab</strong><span class="brand-dot">.</span></a><span>Inteligência quantitativa. Decisões conscientes.</span><a href="#inicio">Voltar ao início ↑</a></div><p class="risk">Operações no mercado financeiro envolvem riscos e podem gerar perdas. Resultados históricos e simulações não representam promessa ou garantia de rentabilidade. Avalie os custos e a adequação do produto ao seu perfil antes de operar.</p><div class="footer-bottom"><span>© <span id="year">2026</span> AlphaLab</span><span>Sinais quantitativos e tecnologia</span></div></div></footer>
+  <footer><div class="container"><div class="footer-top"><a class="brand" href="#inicio" aria-label="AlphaLab — início"><img src="assets/alphalab-logo-reverse.svg" alt="AlphaLab" width="860" height="244" loading="lazy"></a><span class="brand-signature">confiança <b aria-hidden="true">|</b> clareza <b aria-hidden="true">|</b> autoridade</span><a href="#inicio">Voltar ao início ↑</a></div><p class="risk">Operações no mercado financeiro envolvem riscos e podem gerar perdas. Resultados históricos e simulações não representam promessa ou garantia de rentabilidade. Avalie os custos e a adequação do produto ao seu perfil antes de operar.</p><div class="footer-bottom"><span>© <span id="year">2026</span> AlphaLab</span><span>Sinais quantitativos e tecnologia</span></div></div></footer>
   <dialog id="contact-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><form method="dialog"><button class="close-dialog" aria-label="Fechar" value="close">×</button></form><p class="eyebrow">VAMOS COMEÇAR</p><h2 id="dialog-title">Conheça o AlphaLab.</h2><p id="dialog-description"></p><div id="contact-ready" hidden><a class="button" id="contact-link" href="#duvidas">Continuar no atendimento <span aria-hidden="true">↗</span></a><p class="dialog-note">Você será direcionado ao canal de atendimento da AlphaLab.</p></div><div id="contact-pending"><p class="availability">O canal comercial está em atualização. Enquanto isso, consulte as informações disponíveis antes de escolher.</p><div class="dialog-actions"><a class="button" href="#duvidas" data-dialog-link>Consultar dúvidas <span aria-hidden="true">↓</span></a><a class="text-link" href="#transparencia" data-dialog-link>Entender riscos e limites <span aria-hidden="true">↗</span></a></div><p class="dialog-note">A contratação e o período gratuito só começam após a confirmação de acesso. Nenhum cadastro ou cobrança foi realizado.</p></div></dialog>
 </body>
 </html>
